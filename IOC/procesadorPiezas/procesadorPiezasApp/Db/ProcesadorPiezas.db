@@ -1,0 +1,367 @@
+record(bi, "BotonAuto") { 
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.BotonAuto")
+	field(SCAN, "I/O Intr")
+}
+
+record(bi, "BotonManual") { 
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.BotonManual")
+	field(SCAN, "I/O Intr")
+}
+
+record(bi, "BotonReset") { 
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.BotonReset")
+	field(SCAN, "I/O Intr")
+}
+
+record(bi, "BotonStart") { 
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.BotonStart")
+	field(SCAN, "I/O Intr")
+}
+
+record(bi, "BotonStop") { 
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.BotonStop")
+	field(SCAN, "I/O Intr")
+}
+
+record(bi, "CentradoCerrar") { 
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.CentradoCerrar")
+	field(SCAN, "I/O Intr")
+}
+
+record(bi, "CentradoCinta") { 
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.CentradoCinta")
+	field(SCAN, "I/O Intr")
+}
+
+record(bi, "CentradoFCC") { 
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.CentradoFCC")
+	field(SCAN, "I/O Intr")
+}
+
+record(bi, "CentradoFCSB") { 
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.CentradoFCSB")
+	field(SCAN, "I/O Intr")
+}
+
+record(bi, "CentradoSensor") { 
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.CentradoSensor")
+	field(SCAN, "I/O Intr")
+}
+
+record(bi, "CentradoSubir") { 
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.CentradoSubir")
+	field(SCAN, "I/O Intr")
+}
+
+record(bi, "ClasificadoraAzulCinta") { 
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.ClasificadoraAzulCinta")
+	field(SCAN, "I/O Intr")
+}
+
+record(bi, "ClasificadoraAzulGiro") { 
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.ClasificadoraAzulGiro")
+	field(SCAN, "I/O Intr")
+}
+
+record(bi, "ClasificadoraCinta") { 
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.ClasificadoraCinta")
+	field(SCAN, "I/O Intr")
+}
+
+record(bi, "ClasificadoraCinta1") { 
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.ClasificadoraCinta1")
+	field(SCAN, "I/O Intr")
+}
+
+record(bi, "ClasificadoraMetalCinta") { 
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.ClasificadoraMetalCinta")
+	field(SCAN, "I/O Intr")
+}
+
+record(bi, "ClasificadoraMetalGiro") { 
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.ClasificadoraMetalGiro")
+	field(SCAN, "I/O Intr")
+}
+
+record(bi, "ClasificadoraVerdeCinta") { 
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.ClasificadoraVerdeCinta")
+	field(SCAN, "I/O Intr")
+}
+
+record(bi, "ClasificadoraVerdeGiro") { 
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.ClasificadoraVerdeGiro")
+	field(SCAN, "I/O Intr")
+}
+
+record(bi, "EstampadoraActuador") { 
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.EstampadoraActuador")
+	field(SCAN, "I/O Intr")
+}
+
+record(bi, "EstampadoraCinta") { 
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.EstampadoraCinta")
+	field(SCAN, "I/O Intr")
+}
+
+record(bi, "EstampadoraFCB") { 
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.EstampadoraFCB")
+	field(SCAN, "I/O Intr")
+}
+
+record(bi, "EstampadoraFCS") { 
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.EstampadoraFCS")
+	field(SCAN, "I/O Intr")
+}
+
+record(bi, "EstampadoraSensor") { 
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.EstampadoraSensor")
+	field(SCAN, "I/O Intr")
+}
+
+record(bi, "IndicadorAuto") { 
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.IndicadorAuto")
+	field(SCAN, "I/O Intr")
+}
+
+record(bi, "IndicadorEmergencia") { 
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.IndicadorEmergencia")
+	field(SCAN, "I/O Intr")
+}
+
+record(bi, "IndicadorManual") { 
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.IndicadorManual")
+	field(SCAN, "I/O Intr")
+}
+
+record(bi, "MachiningCenterBusy") { 
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.MachiningCenterBusy")
+	field(SCAN, "I/O Intr")
+}
+
+record(bi, "MachiningCenterError") { 
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.MachiningCenterError")
+	field(SCAN, "I/O Intr")
+}
+
+record(bi, "MachiningCenterOpen") { 
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.MachinningCenterOpen")
+	field(SCAN, "I/O Intr")
+}
+
+record(bi, "PesadoCinta") { 
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.PesadoCinta")
+	field(SCAN, "I/O Intr")
+}
+
+record(bi, "PesadoCinta2") { 
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.PesadoCinta2")
+	field(SCAN, "I/O Intr")
+}
+
+record(bi, "PesadoRociadoDescargaLed") { 
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.PesadoRociadoDescargaLed")
+	field(SCAN, "I/O Intr")
+}
+
+record(bi, "PesadoSensor") { 
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.PesadoSensor")
+	field(SCAN, "I/O Intr")
+}
+
+record(bi, "SetaEmergencia") { 
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.SetaEmergencia")
+	field(SCAN, "I/O Intr")
+}
+
+
+
+record(bo, "CMActivado") {
+	field(DTYP, "OPCUA")
+	field(OUT,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.CMActivado")
+}
+
+record(bo, "CMCentradoCerrar") {
+	field(DTYP, "OPCUA")
+	field(OUT,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.CMCentradoCerrar")
+}
+
+record(bo, "CMCentradoCinta") {
+	field(DTYP, "OPCUA")
+	field(OUT,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.CMCentradoCinta")
+}
+
+record(bo, "CMCentradoSubir") {
+	field(DTYP, "OPCUA")
+	field(OUT,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.CMCentradoSubir")
+}
+
+record(bo, "CMClasificadoraAzulCinta") {
+	field(DTYP, "OPCUA")
+	field(OUT,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.CMClasificadoraAzulCinta")
+}
+
+record(bo, "CMClasificadoraCinta") {
+	field(DTYP, "OPCUA")
+	field(OUT,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.CMClasificadoraCinta")
+}
+
+record(bo, "CMClasificadoraMetalCinta") {
+	field(DTYP, "OPCUA")
+	field(OUT,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.CMClasificadoraMetalCinta")
+}
+
+record(bo, "CMClasificadoraVerdeCinta") {
+	field(DTYP, "OPCUA")
+	field(OUT,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.CMClasificadoraVerdeCinta")
+}
+
+record(bo, "CMEstampadoraActuador") {
+	field(DTYP, "OPCUA")
+	field(OUT,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.CMEstampadoraActuador")
+}
+
+record(bo, "CMEstampadoraCinta") {
+	field(DTYP, "OPCUA")
+	field(OUT,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.CMEstampadoraCinta")
+}
+
+record(bo, "CMPesadoCinta") {
+	field(DTYP, "OPCUA")
+	field(OUT,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.CMPesadoCinta")
+}
+
+record(bo, "CMPesadoRociadoDescarga") {
+	field(DTYP, "OPCUA")
+	field(OUT,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.CMPesadoRociadoDescarga")
+}
+
+record(bo, "CMPesadoRociadoLlenado") {
+	field(DTYP, "OPCUA")
+	field(OUT,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.CMPesadoRociadoLlenado")
+}
+
+record(bo, "SCADAEmergencia") {
+	field(DTYP, "OPCUA")
+	field(OUT,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.SCADAEmergencia")
+}
+
+record(bo, "SCADAManual") {
+	field(DTYP, "OPCUA")
+	field(OUT,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.SCADAManual")
+}
+
+record(bo, "SCADAStart") {
+	field(DTYP, "OPCUA")
+	field(OUT,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.SCADAStart")
+}
+
+record(bo, "SCADAStop") {
+	field(DTYP, "OPCUA")
+	field(OUT,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.SCADAStop")
+}
+
+
+
+record(mbbi, "PesadoRociadoFlowSensor") {
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.PesadoRociadoFlowSensor")
+	field(SCAN, "I/O Intr")
+}
+
+record(mbbi, "PesadoRociadoDescarga") {
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.PesadoRociadoDescarga")
+	field(SCAN, "I/O Intr")
+}
+
+record(ai, "PesadoValorReal") {
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.PesadoValorReal")
+	field(SCAN, "I/O Intr")
+}
+
+record(mbbi, "PiezasAzules") {
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.PiezasAzules")
+	field(SCAN, "I/O Intr")
+}
+
+record(mbbi, "PiezasGrises") {
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.PiezasGrises")
+	field(SCAN, "I/O Intr")
+}
+
+record(mbbi, "PiezasVerdes") {
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.PiezasVerdes")
+	field(SCAN, "I/O Intr")
+}
+
+record(mbbi, "ClasificadoraCamara") {
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.ClasificadoraCamara")
+	field(SCAN, "I/O Intr")
+}
+
+record(ai, "PesadoRociadoNivelReal") {
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.PesadoRociadoNivelReal")
+	field(SCAN, "I/O Intr")
+}
+
+record(mbbi, "MachiningCenterProgress") {
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.MachiningCenterProgress")
+	field(SCAN, "I/O Intr")
+}
+
+record(mbbi, "PesadoRociadoLlenado") {
+	field(DTYP, "OPCUA")
+	field(INP,  "@SUB1 ns=2;s=ProcesadorPiezas.s7300.PesadoRociadoLlenado")
+	field(SCAN, "I/O Intr")
+}
+
+record(calc, "PiezasTotales") {
+	field(INPA, "PiezasVerdes.RVAL")
+	field(INPB, "PiezasAzules.RVAL")
+	field(INPC, "PiezasGrises.RVAL")
+	field(CALC, "A+B+C")
+	field(SCAN, "1 second")
+}
+

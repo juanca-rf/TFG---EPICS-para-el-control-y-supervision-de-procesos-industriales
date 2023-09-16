@@ -1,0 +1,2 @@
+EPICS_BASE = /home/juanca/EPICS/epics-base
+OPCUA = /home/juanca/EPICS/support/opcua
