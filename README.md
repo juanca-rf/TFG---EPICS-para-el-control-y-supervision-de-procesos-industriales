@@ -1,6 +1,5 @@
 # Trabajo Fin de Grado: EPICS para el control y supervisión de procesos industriales
  - **Autor**: Juan Carlos Ruiz Fernández 
-   procesos industriales 
  - **Tutor**: Miguel Damas Hermoso
  - Universidad de Granada, Escuela Técnica Superior en Ingeniería Informática y Telecomunicaciones
 
@@ -9,6 +8,16 @@ Este repositorio recoge los archivos entregados para la evaluacion de este TFG. 
 Además, se incluye el archivo PDF que recoge la memoria realizada a lo largo del desarrollo del proyecto. Es donde se **define detalladamente como se ha realizado**.
 
 El resto de archivos, se recogen en un archivo comprimido ya que la visualización del codigo fuente se considera superflua. 
+
+## Sistema SCADA completo
+Este TFG se compone de los siguientes elementos:
+1. **Proceso industrial**: Simulado con Factory IO, cuyo archivo se encuentra en la carpeta comprimida. Este proceso requiere ser controlado por un PLC.
+2. **PLC**: Un PLC, o automata programable, que es es el controlador principal del proceso. Ha sido simulado con **PLCSim** y su archivo se encuentra dentro la carpeta comprimida.
+3. **NetToPLCSim**: Este programa levanta las comunicaciones de *PLCSim* a TCP.
+4. **Servidor OPC UA**: Servidor montado sobre KepServerEX y cuya configuracion se encuentra en la carpeta comprimida.
+5. **Sistemas SCADA**. 
+   1. **EPICS**: Para su funcionamiento requiere la ejecución del IOC y de Phoebus. Para Phoebus las pantallas se encuentran en la carpeta comprimida.
+   2. **WinCC OA**: Requiere su aplicacion, existe una version de evaluacion y basta con abrir el proyecto incluido en la carpeta comprimida.
 
 ## Resumen
 <div style="text-align: justify">
